@@ -285,7 +285,7 @@ hr{
 .add-to-cart, .like {
     background: rgb(235, 10, 10);
     padding: 1.2em 1.5em;
-    width:300px;
+    width:210px;
     border: none;
     text-transform: UPPERCASE;
     font-weight: bold;
@@ -378,4 +378,35 @@ footer .participants {
         .container{
         max-width: 100%;
         }
+    }
+    .product-container {
+        max-width: 650px;
+        justify-content:space-around;
+        margin: 0 auto;
+        margin-top:50px;
+    }
+    .product-header{
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        justify-content:  flex-start;
+        border-bottom: 4px solid lightgrey;
+        margin: 0 auto;
+    }
+    .product-title{
+        width: 45%;
+    }
+    .price {
+        width: 15%;
+        
+        display: flex;
+        align-items: center;
+    }
+    .quantity {
+        width: 30%;
+       display: flex;
+       align-items: center;
+    }
+    .product {
+        width: 45%;
     }
